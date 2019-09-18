@@ -1,0 +1,25 @@
+ul {
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    width: 50vw;
+}
+
+a:hover,
+a:visited,
+a:link,
+a:active {
+    text-decoration: none;
+}
+
+li {
+    flex-direction: row;
+    text-align: center;
+    display: inline;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-underline-position: under;
+}
