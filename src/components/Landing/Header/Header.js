@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { HashLink as Link } from 'react-router-hash-link'
 import './Header.css';
 
 const Header = () => {
@@ -10,7 +10,7 @@ const Header = () => {
             </div>
         </header>
     )
-} 
+}
 
 export default Header;
 

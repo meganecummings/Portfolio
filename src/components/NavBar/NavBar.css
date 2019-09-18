@@ -23,3 +23,8 @@ a:hover {
     text-decoration: underline;
     text-underline-position: under;
 }
+
+.hamburger {
+    height: 3rem;
+    margin: auto;
+}

@@ -1,3 +1,12 @@
+:root {
+    --bronze: #CD865C;
+    --text: #44545E;
+    --darkgray: #C9C5C6;
+    --p: #ADA28E;
+    --lightgray: #EDEDEF;
+}
+
+
 /* ----------------------------------------
 Base Styles
 ------------------------------------------- */
@@ -17,7 +26,7 @@ body {
     text-transform: uppercase;
     letter-spacing: .02em;
     text-align: center;
-    color: #44545E;
+    color: var(--text);
 }
 
 
@@ -36,6 +45,13 @@ p {
     font-family: 'Lato', sans-serif;
     text-transform: none;
     line-height: 1.4;
+    font-family: source-serif-pro;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.9em;
+    letter-spacing: 0em;
+    text-rendering: optimizeLegibility;
 }
 
 h1,
@@ -64,13 +80,13 @@ h3 {
 
 a {
     text-decoration: none;
-    color: #7B98AA;
+    color: var(--darkgray);
     font-weight: 600;
     transition: all .3s ease-in-out;
 }
 
 a:hover {
-    color: #44545E;
+    color: var(--bronze);
 }
 
 
@@ -146,7 +162,7 @@ section {
 }
 
 .callout {
-    background-color: #CFF2F6;
+    background-color: var(--eggshell);
 }
 
 
@@ -164,4 +180,93 @@ Layout
 
 .comment {
     padding-top: 0;
+}
+
+
+/* ----------------------------------------
+Buttons
+------------------------------------------- */
+
+button {
+    cursor: pointer;
+    outline: 0;
+    border: 2px solid #44545E;
+    color: #44545E;
+    padding: 8px 25.5px;
+    padding: 8px 1.7rem;
+    background-color: transparent;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 12.299px;
+    font-size: .82rem;
+    letter-spacing: 1.2px;
+    letter-spacing: .08rem;
+    transition: all .3s ease-in-out;
+}
+
+button:hover {
+    background-color: #44545E;
+    color: white;
+    font-weight: 600;
+}
+
+.articles button {
+    margin-top: 30px;
+    margin-top: 2rem;
+}
+
+
+/* ----------------------------------------
+Media Queries
+------------------------------------------- */
+
+@media only screen and (max-width: 790px) {
+    nav a {
+        padding: .2rem 2rem;
+    }
+    .col-third {
+        width: 100%;
+    }
+    .articles button {
+        margin-top: .5rem;
+    }
+    .col-third img {
+        display: block;
+        margin: 3rem auto 1rem;
+    }
+    .col-third h3 {
+        margin-bottom: .5rem;
+    }
+    .col-third:first-of-type img {
+        margin-top: 0;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+    html {
+        font-size: 14px;
+    }
+    nav ul {
+        display: none;
+    }
+    nav {
+        background-color: transparent;
+    }
+    .hamburger {
+        display: block;
+        color: #fff;
+        font-size: 1.7rem;
+        position: absolute;
+        top: 10px;
+        left: 2px;
+    }
+    .col-half {
+        width: 100%;
+    }
+    footer button {
+        width: 300px;
+    }
+    footer input {
+        margin-right: 0;
+    }
 }
