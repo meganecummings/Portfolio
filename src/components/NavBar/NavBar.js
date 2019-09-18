@@ -6,10 +6,10 @@ class NavBar extends Component {
         return (
             <nav className="underline border">
             <ul>
-                <li><a href="">About</a></li>
-                <li><a href="">Gallery</a></li>
-                <li><a href="">Blog</a></li>
-                <li><a href="">Contact</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#inspiration">Inspiration</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
         )

@@ -1,13 +1,13 @@
 import React from 'react';
 
-import PostList from './PostList/PostList';
+import PostList from '../ProjectList/ProjectList';
 import About from '../About/About';
-import Inspiration from './Inspiration/Inspiration';
-import Comment from './Comment/Comment';
-import Footer from './Footer/Footer';
-import './Main.css';
+import Inspiration from '../Inspiration/Inspiration';
+import Comment from '../Comment/Comment';
+import Footer from '../Footer/Footer';
+import './HomePage.css';
 
-const Main = () => {
+const HomePage = () => {
     return(
         <>
             <div className="grid-wrapper">
@@ -25,6 +25,6 @@ const Main = () => {
     )
 }
 
-export default Main;
+export default HomePage;
 
 
