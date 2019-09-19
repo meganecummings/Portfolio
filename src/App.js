@@ -17,7 +17,7 @@ class App extends Component {
         <NavBar />
         <Header />
         <HomePage />
-        <Routes changeRoute={this.changeRoute} />
+        {/* <Routes changeRoute={this.changeRoute} /> */}
       </div>
     );
   }

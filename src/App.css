@@ -146,6 +146,10 @@ section {
 }
 
 .col-half {
+    width: 49%;
+}
+
+.col-side {
     width: 55%;
     margin-right: 2em;
 }
@@ -195,7 +199,7 @@ button {
 }
 
 button:hover {
-    background-color: var(--darkgray);
+    background-color: var(--bronze);
     ;
     color: white;
     font-weight: 600;

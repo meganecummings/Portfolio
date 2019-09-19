@@ -5,10 +5,10 @@ import './Inspirations.css';
 const Inspirations = () => {
     return(
         <div id="inspiration">
-            <h3>Recent Inspiration</h3>
+            {/* <h3>Recent Inspiration</h3>
             <ul>
                 <Inspiration /> 
-            </ul>
+            </ul> */}
         </ div>
     );
 };

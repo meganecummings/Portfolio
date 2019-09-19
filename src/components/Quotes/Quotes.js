@@ -4,7 +4,7 @@ import './Quotes.css';
 const Quotes = ({ changeRoute }) => {
     return(
         <>
-            <div className="shapes" onClick={changeRoute}>Hi!</div>
+            <div className="shapes" onClick={changeRoute}></div>
         </>
     )
 }
