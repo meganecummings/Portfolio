@@ -1,5 +1,6 @@
 import React from 'react';
 
+// import Quotes from '../../Quotes/Quotes';
 import Items from './CSwap-Items.png'
 import Profile from './CSwap-Profile.png';
 
@@ -9,7 +10,7 @@ const Project = () => {
             <h3>September 2019</h3>
 
             <h2>Clothing Swap </h2>
-            
+
             <img src={Profile} alt="Clothing Swap App" />
             <p>My latest project, ClothingSwap is a fully functional CRUD application for creating and managing your own Clothing Swap Events! </p>
             <img src={Items} alt="Items Image" />
