@@ -4,7 +4,7 @@ header h1 {
     letter-spacing: 0.3rem;
 }
 
-h1 a {
+.heading-title {
     color: #44545E;
     /* If background-image */
     color: white;
@@ -17,27 +17,36 @@ header {
     background-image: url('./desk.jpg');
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     padding-top: 6rem;
     padding-bottom: 2.5rem;
     /* If there is a background-image */
-    height: 80vh;
+    height: 85vh;
     margin-bottom: 48px;
     margin-bottom: 3rem;
 }
 
+.vertical-center {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    transition: transform 5s ease-in-out;
+}
 
-/* ----------------------------------------
-Header
-------------------------------------------- */
-
-header {
-    padding-top: 30px;
-    background-repeat: no-repeat;
-    background-size: cover;
+.heading-title:hover {
+    transform: scale(1.5);
 }
 
 h1 a,
-h1 a:hover,
+.heading-title:hover,
 header h2 {
     color: #fff;
 }

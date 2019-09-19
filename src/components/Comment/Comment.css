@@ -28,7 +28,7 @@ textarea {
 
 input,
 textarea {
-    border: 2px solid #44545E;
+    border: 2px solid var(--darkgray);
     margin-bottom: 12px;
     margin-bottom: .8rem;
     padding: 10px 10px;
@@ -36,7 +36,7 @@ textarea {
 }
 
 ::-webkit-input-placeholder {
-    color: #7C878E;
+    color: var(--text);
     text-transform: uppercase;
     letter-spacing: 0.75px;
     letter-spacing: .05rem;
@@ -47,7 +47,7 @@ textarea {
 
 :-moz-placeholder {
     /* Firefox 18- */
-    color: #7C878E;
+    color: var(--text);
     text-transform: uppercase;
     letter-spacing: 0.75px;
     letter-spacing: .05rem;
@@ -58,7 +58,7 @@ textarea {
 
 ::-moz-placeholder {
     /* Firefox 19+ */
-    color: #7C878E;
+    color: var(--text);
     text-transform: uppercase;
     letter-spacing: 0.75px;
     letter-spacing: .05rem;
@@ -68,7 +68,7 @@ textarea {
 }
 
 :-ms-input-placeholder {
-    color: #7C878E;
+    color: var(--text);
     text-transform: uppercase;
     letter-spacing: 0.75px;
     letter-spacing: .05rem;

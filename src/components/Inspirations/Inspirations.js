@@ -1,5 +1,4 @@
 import React from 'react';
-import { HashLink as Link } from 'react-router-hash-link';
 import Inspiration from './Inspiration/Inspiration.js';
 import './Inspirations.css';
 

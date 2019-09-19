@@ -1,0 +1,26 @@
+.quote {
+    color: var(--darkgray);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    text-transform: none;
+    font-size: 1.5rem;
+    line-height: 1.6;
+    padding: 1.5em;
+    margin-top: 50vh;
+}
+
+.shapes {
+    background: var(--bronze);
+    border-radius: 2% 50%;
+    height: 100px;
+    margin: 100px;
+    transition: all 3s ease-in-out;
+    width: 100px;
+    padding: 2em;
+    color: white;
+    text-transform: none;
+}
+
+.shapes:hover {
+    transform: rotate(1080deg);
+}
