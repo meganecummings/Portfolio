@@ -1,21 +1,49 @@
 import React from 'react';
+import {Table} from 'react-bootstrap';
 
 // import Quotes from '../../Quotes/Quotes';
-import Items from './CSwap-Items.png'
+import Wayfarer from './wayfarer.png';
 import Profile from './CSwap-Profile.png';
 
 const Project = () => {
     return(
-        <article>
-            <h3>September 2019</h3>
+        <div id="project" className="container">
+            <div className="project clothingswap">
+                <a href="https://pages.git.generalassemb.ly/megcummings/clothingswap/" >
+                    <img className="project-img" src={Profile} alt="clothingswap homepage"/>
+                </a>
+                <h2 className="project-title">Clothing Swap</h2>
+                <p className="project-description">ClothingSwap is an React application for creating and managing your own clothing swap events. API integration with SendGrid & FormSpree for easy Contact and Messaging to your invitees.</p>
+                <Table hover border>
+                    <tbody className="table keyword">
+                    <tr>
+                        <td><i class="fab fa-react"></i> React</td>
+                        <td><i class="fab fa-node"></i> Node.js</td>
+                        <td><i class="fas fa-server"></i> Express</td>
+                        <td><i class="fab fa-database"></i> Mongoose </td>
+                    </tr>
+                </tbody >
+                </Table>
+            </div>
+            <div className="project wayfarer">
+                <a href="https://edfranco.github.io/wayfarer/">
+                    <img className="project-img" src={Wayfarer} alt="Wayfarer" />
+                </a>
+                <h2 className="project-title">Wayfarer</h2>
+                <p className="project-description">Wayfarer is a technical concept project based off of rough wireframes from clients. The MERN Stack Application aims to bring weary travelers to share stories and build connections around their discoveries in popular cities.</p>
+                <Table hover border >
+                    <tbody className="table keyword">
+                        <tr>
+                            <td><i class="fab fa-react"></i> React</td>
+                            <td><i class="fab fa-node"></i> Node.js</td>
+                            <td><i class="fas fa-server"></i> Express</td>
+                            <td><i class="fab fa-database"></i> Mongoose </td>
+                        </tr>
+                    </tbody >
+                    </Table>
 
-            <h2>Clothing Swap </h2>
-
-            <img src={Profile} alt="Clothing Swap App" />
-            <p>My latest project, ClothingSwap is a fully functional CRUD application for creating and managing your own Clothing Swap Events! </p>
-            <img src={Items} alt="Items Image" />
-            <p>In the app, as shown above, you can add new Items, include those items in your events, and share/invite others via Email to attend your events!</p>
-        </article>
+            </div>
+        </div>
     );
 };
 

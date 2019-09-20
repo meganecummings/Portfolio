@@ -1,0 +1,39 @@
+.project-title {
+    text-align: center;
+    color: var(--bronze);
+    margin-top: 30px;
+}
+
+.project-description {
+    color: var(--darkgray);
+    font-size: 1.5em;
+}
+
+.project-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    border: .5em solid var(--bronze);
+    width: 20em;
+    height: 18em;
+}
+
+.project {
+    margin: 1em;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 4fr 4fr;
+}
+
+.clothingswap {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.wayfarer {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
