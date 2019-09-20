@@ -68,10 +68,12 @@ h1 {
     letter-spacing: .8rem;
 }
 
+
+/* 
 h2 {
     margin-bottom: 45px;
     margin-bottom: 3rem;
-}
+} */
 
 
 /* h3 {
@@ -114,10 +116,12 @@ li {
 Layout
 ------------------------------------------- */
 
+
+/* 
 section {
     padding: 105px 30px;
     padding: 7rem 2rem;
-}
+} */
 
 .wrap {
     max-width: 1000px;
@@ -125,33 +129,13 @@ section {
     margin: 0 auto;
 }
 
-.grid-wrapper {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-}
-
 .col-third {
     width: 32%;
     margin-left: 2em;
 }
 
-.col-half {
+.half {
     width: 49%;
-}
-
-.col-side {
-    width: 55%;
-    margin-right: 2em;
 }
 
 .callout {
@@ -163,13 +147,13 @@ section {
 Layout
 ------------------------------------------- */
 
-.grid-wrapper section {
-    width: 70%;
+
+/* .grid-wrapper section {
     text-align: left;
     padding-top: 0;
     padding-bottom: 54.4px;
     padding-bottom: 3.4rem;
-}
+} */
 
 .comment {
     padding-top: 0;

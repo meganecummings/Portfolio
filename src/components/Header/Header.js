@@ -3,7 +3,7 @@ import './Header.css';
 
 const Header = () => {
     return(
-        <header className="vertical-center">
+        <header  id="header">
             <h1 className="heading-title">Meg Cummings</h1>
         </header>
     )

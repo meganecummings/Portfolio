@@ -26,8 +26,14 @@ textarea {
     display: block;
 }
 
-input,
-textarea {
+.contact-heading {
+    margin-bottom: 45px;
+    margin-bottom: 3rem;
+    text-transform: none;
+}
+
+.input,
+.textarea {
     border: 2px solid var(--darkgray);
     margin-bottom: 12px;
     margin-bottom: .8rem;

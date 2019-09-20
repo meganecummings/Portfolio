@@ -5,28 +5,26 @@ header h1 {
 }
 
 .heading-title {
-    color: #44545E;
-    /* If background-image */
     color: white;
     margin-top: 40px;
     margin-top: 2.5rem;
     display: inline-block;
 }
 
-header {
+#header {
     background-image: url('./desk.jpg');
     background-size: cover;
-    background-position: center;
+    background-position: bottom;
     background-repeat: no-repeat;
     padding-top: 6rem;
     padding-bottom: 2.5rem;
-    /* If there is a background-image */
-    height: 85vh;
+    margin-top: 5vh;
+    height: 90vh;
     margin-bottom: 48px;
     margin-bottom: 3rem;
 }
 
-.vertical-center {
+#header {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -38,11 +36,6 @@ header {
     justify-content: center;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    transition: transform 5s ease-in-out;
-}
-
-.heading-title:hover {
-    transform: scale(1.5);
 }
 
 h1 a,

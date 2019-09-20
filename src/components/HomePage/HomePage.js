@@ -5,19 +5,15 @@ import About from '../About/About';
 import Inspirations from '../Inspirations/Inspirations';
 import Comment from '../Comment/Comment';
 import Footer from '../Footer/Footer';
-import Quotes from '../Quotes/Quotes.js';
+import './HomePage.css';
 
-const HomePage = ({ changeRoute }) => {
+const HomePage = () => {
     return(
         <>
-            <div className="grid-wrapper">
-                <ProjectList />
-                <aside>
-                    <Quotes changeRoute={changeRoute}/>
-                </aside>
+            <div className="grid-wrapper" id="homepage">
                 <About />
+                <ProjectList />
                 <Inspirations />
-
             </div>
             <section className="comment">
                 <Comment />

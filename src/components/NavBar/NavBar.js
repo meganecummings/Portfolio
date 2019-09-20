@@ -1,18 +1,21 @@
 import React, { Component } from 'react';
-import { HashLink as Link } from 'react-router-hash-link';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 import './NavBar.css';
 
 class NavBar extends Component {
     render() {
         return (
-            <nav className="hamburger">
-            <ul>
-                <li><Link to="/pathLink#about" >About</Link></li>
-                <li><Link to="/pathLink#work" >Work</Link></li>
-                <li><Link to="/pathLink#inspiration" >Inspiration</Link></li>
-                <li><Link to="/pathLink#contact" >Contact</Link></li>
-            </ul>
+            <nav className="hamburger fixed-top navbar-expand-lg white">
+                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon"></span>
+                </button>
+                <ul className="collapse navbar-collapse" >
+                    <li className="navbar-link"><AnchorLink href="#header"><i class="fas fa-home"></i></AnchorLink></li>
+                    <li className="navbar-link"><AnchorLink href="#about" >About</AnchorLink></li>
+                    <li className="navbar-link"><AnchorLink href="#work" >Work</AnchorLink></li>
+                    <li className="navbar-link"><AnchorLink href="#contact" >Contact</AnchorLink></li>
+                </ul>
         </nav>
         )
     }

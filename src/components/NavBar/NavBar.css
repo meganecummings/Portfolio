@@ -6,25 +6,31 @@ ul {
     width: 50vw;
 }
 
-a:hover,
-a:visited,
-a:link,
-a:active {
+.navbar-link:hover,
+.navbar-link:visited,
+.navbar-link:link,
+.navbar-link:active {
     text-decoration: none;
 }
 
-li {
+ul>* {
     flex-direction: row;
     text-align: center;
     display: inline;
+    margin-top: 1.3em;
 }
 
-a:hover {
+.navbar-link:hover {
     text-decoration: underline;
     text-underline-position: under;
 }
 
 .hamburger {
-    height: 6vh;
+    height: 10vh;
     margin: auto;
+    font-size: 1em;
+}
+
+.white {
+    background-color: white;
 }
