@@ -10,7 +10,7 @@ const Footer = () => {
                     <a href=""><i className="fa fa-twitter-square" aria-hidden="true"></i></a>
                     <a href=""><i className="fa fa-instagram" aria-hidden="true"></i></a>
                 </div>
-                <form className="contact" action="https://formspree.io/megcummings@gmail.com" method="POST"   >
+                <form action="https://formspree.io/megcummings@gmail.com" method="POST"   >
                     <input type="text" placeholder="Email Address" />
                     <button type="submit">Keep in Touch</button>
                 </form>
