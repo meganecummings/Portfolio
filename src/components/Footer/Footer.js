@@ -11,7 +11,7 @@ const Footer = () => {
                     <a href=""><i className="fa fa-instagram" aria-hidden="true"></i></a>
                 </div>
                 <form action="https://formspree.io/megcummings@gmail.com" method="POST"   >
-                    <input type="text" placeholder="Email Address" />
+                    <input type="text" name="email" placeholder="Email Address" />
                     <button type="submit">Keep in Touch</button>
                 </form>
             </div>
