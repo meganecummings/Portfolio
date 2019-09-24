@@ -9,10 +9,11 @@ header h1 {
     margin-top: 40px;
     margin-top: 2.5rem;
     display: inline-block;
+    font-family: 'Raleway', sans-serif;
 }
 
 #header {
-    background-image: url('./desk.jpg');
+    background-image: linear-gradient( rgb(0, 0, 0, 0.1), rgba(248, 152, 7, 0.253)), url('./desk.jpg');
     background-size: cover;
     background-position: bottom;
     background-repeat: no-repeat;

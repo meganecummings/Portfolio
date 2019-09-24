@@ -1,5 +1,5 @@
 :root {
-    --bronze: #CD865C;
+    --bronze: rgb(205, 134, 92);
     --text: #44545E;
     --darkgray: #C9C5C6;
     --p: #ADA28E;
@@ -20,13 +20,16 @@ html {
 }
 
 body {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Open-sans', sans-serif;
     -webkit-font-smoothing: antialiased;
     margin: 0;
-    text-transform: uppercase;
     letter-spacing: .02em;
     text-align: center;
     color: var(--text);
+}
+
+.title {
+    text-transform: uppercase;
 }
 
 

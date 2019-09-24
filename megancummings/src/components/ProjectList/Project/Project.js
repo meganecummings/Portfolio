@@ -14,13 +14,12 @@ const Project = () => {
                 <h2 className="project-title">Clothing Swap</h2>
                 <div className="mt-4 pt-2">
                     <button 
-                        href="https://github.com/meganecummings/clothingswap-app" target="_blank"
-                        rel="noopener noreferrer"
+                        href="https://github.com/meganecummings/clothingswap-app" target="_blank" rel="noopener noreferrer"
                         className="btn btn-custom btn-round"><i className="fab fa-github-alt fa-i"></i>
                         Github</button>
                 </div>
                 <p className="project-description">ClothingSwap is an React application for creating and managing your own clothing swap events. API integration with SendGrid & FormSpree for easy Contact and Messaging to your invitees.</p>
-                <Table hover="true">
+                <Table hover border>
                     <tbody className="table keyword">
                     <tr>
                         <td><i className="fab fa-react"></i> React</td>
@@ -44,7 +43,7 @@ const Project = () => {
                         Github</button>
                 </div>
                 <p className="project-description">Wayfarer is a technical concept project based off of rough wireframes from clients. The MERN Stack Application aims to bring weary travelers to share stories and build connections around their discoveries in popular cities.</p>
-                <Table hover="true" >
+                <Table hover border >
                     <tbody className="table keyword">
                         <tr>
                             <td><i className="fab fa-react"></i> React</td>
