@@ -1,0 +1,10 @@
+.tech {
+    text-transform: none;
+    font-size: 20px;
+    color: #666666;
+}
+
+.tech:hover {
+    color: var(--rose);
+    transform: rotate(1080deg);
+}

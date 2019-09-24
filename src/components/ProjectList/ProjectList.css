@@ -1,6 +1,6 @@
 .project-title {
     text-align: center;
-    color: var(--bronze);
+    color: var(--rose);
     margin-top: 30px;
 }
 
@@ -14,7 +14,7 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 40px;
-    border: .5em solid var(--bronze);
+    border: .5em solid var(--rose);
     width: 20em;
     height: 18em;
 }

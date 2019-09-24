@@ -10,11 +10,8 @@ const Footer = () => {
                     <a href=""><i className="fa fa-twitter-square" aria-hidden="true"></i></a>
                     <a href=""><i className="fa fa-instagram" aria-hidden="true"></i></a>
                 </div>
-                <form action="https://formspree.io/megcummings@gmail.com" method="POST"   >
-                    <input type="text" name="email" placeholder="Email Address" />
-                    <button type="submit">Keep in Touch</button>
-                </form>
-            </div>
+                <div class="button-wrapper contact-container" ><button href="mailto:megcummings@gmail.com" target="_blank" class="btn  regular contact">Get In Contact</button></div>
+            </div>    
             <p className="copyright">&copy;2019 Meg Cummings</p>
         </footer>
     )

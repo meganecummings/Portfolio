@@ -4,6 +4,9 @@
     --darkgray: #C9C5C6;
     --p: #ADA28E;
     --lightgray: #EDEDEF;
+    --rose: rgb(255, 228, 225);
+    --yellow: #F3DE8A;
+    --salmon: #EB9486;
 }
 
 
@@ -45,10 +48,8 @@ Typography
 ------------------------------------------- */
 
 p {
-    font-family: 'Lato', sans-serif;
     text-transform: none;
     line-height: 1.4;
-    font-family: source-serif-pro;
     font-weight: 400;
     font-style: normal;
     font-size: 16px;
@@ -92,7 +93,7 @@ a {
 }
 
 a:hover {
-    color: var(--bronze);
+    color: var(--rose);
 }
 
 
@@ -119,12 +120,10 @@ li {
 Layout
 ------------------------------------------- */
 
-
-/* 
 section {
     padding: 105px 30px;
     padding: 7rem 2rem;
-} */
+}
 
 .wrap {
     max-width: 1000px;
@@ -132,8 +131,9 @@ section {
     margin: 0 auto;
 }
 
-.col-third {
-    width: 32%;
+.col-third,
+.tech-third {
+    width: 40%;
     margin-left: 2em;
 }
 
@@ -186,7 +186,7 @@ button {
 }
 
 button:hover {
-    background-color: var(--bronze);
+    background-color: var(--rose);
     ;
     color: white;
     font-weight: 600;

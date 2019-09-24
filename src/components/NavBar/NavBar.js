@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import { Navbar, Nav, NavDropdown, Form, FormControl, Button } from 'react-bootstrap'
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import './NavBar.css';
+import resume from '../About/resume.pdf';
 
 class NavBar extends Component {
     render() {
@@ -14,11 +15,20 @@ class NavBar extends Component {
                     <Nav.Link href="#header"><i className="fas fa-home"></i></Nav.Link>
                     <Nav.Link href="#about">About</Nav.Link>
                     <Nav.Link href="#work">Work</Nav.Link>
-                    <Nav.Link href="#comment">Contact</Nav.Link>
+                    <Nav.Link href="#contact">Contact</Nav.Link>
                     <NavDropdown title="Pages" id="basic-nav-dropdown">
-                        <NavDropdown.Item href="https://meganecummings.github.io/">Github</NavDropdown.Item>
-                        <NavDropdown.Item href="https://linkedin.com/in/megancummings/">LinkedIn </NavDropdown.Item>
-                        <NavDropdown.Item href="https://angel.co/megcummings">AngelList</NavDropdown.Item>
+                        <NavDropdown.Item href="https://github.com/meganecummings"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >Github</NavDropdown.Item>
+                        <NavDropdown.Item href="https://linkedin.com/in/megancummings" 
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >LinkedIn </NavDropdown.Item>
+                        <NavDropdown.Item href={resume}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >Resume</NavDropdown.Item>
                     </NavDropdown>
                     </Nav>
                 </Navbar.Collapse>

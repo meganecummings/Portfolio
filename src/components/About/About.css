@@ -5,14 +5,23 @@
 .about {
     margin: 3rem 1rem;
     text-align: left;
+    color: #666666;
 }
 
 .about-heading {
     margin-top: 3rem;
+    font-size: 56px;
+    color: #212121;
+}
+
+.about-title {
+    line-height: 42px;
+    font-size: 32px;
 }
 
 .about-body {
-    font-size: 1.5rem;
+    line-height: 34px;
+    font-size: 24px;
 }
 
 .col-side {
@@ -34,7 +43,7 @@
 }
 
 .keyword {
-    color: var(--bronze);
+    color: var(--rose);
     font-weight: bold;
 }
 
@@ -47,12 +56,35 @@ i {
     font-size: 1em;
 }
 
-i:hover,
-.tech:hover {
-    color: var(--bronze);
+i:hover {
+    color: var(--rose);
     transform: rotate(1080deg);
 }
 
 .btn-custom {
-    background-color: var(--bronze);
+    background-color: var(--rose);
+}
+
+svg {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.container {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    vertical-align: middle;
+    overflow: hidden;
+}
+
+path {
+    stroke: none;
+    fill: var(--rose);
+}
+
+.white-border {
+    border: 2rem solid var(--lightgray);
 }
