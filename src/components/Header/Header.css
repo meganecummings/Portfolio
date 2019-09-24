@@ -13,7 +13,7 @@ header h1 {
 }
 
 #header {
-    background-image: linear-gradient( rgb(0, 0, 0, 0.1), rgba(255, 228, 225, 0.31)), url('./desk.jpg');
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(119, 113, 105, 0.509)), url('./desk.jpg');
     background-size: cover;
     background-position: bottom;
     background-repeat: no-repeat;

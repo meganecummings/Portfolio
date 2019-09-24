@@ -8,7 +8,7 @@ const Project = () => {
     return(
         <div id="project" className="container">
             <div className="project clothingswap">
-                <a href="https://meganecummings.github.io/clothingswap-app/" >
+                <a href="https://meganecummings.github.io/clothingswap-app/login" target="_blank">
                     <img className="project-img" src={Profile} alt="clothingswap homepage"/>
                 </a>
                 <h2 className="project-title">Clothing Swap</h2>
@@ -32,7 +32,7 @@ const Project = () => {
                 </Table>
             </div>
             <div className="project wayfarer">
-                <a href="https://edfranco.github.io/register">
+                <a href="https://edfranco.github.io/register" target="_blank">
                     <img className="project-img" src={Wayfarer} alt="Wayfarer" />
                 </a>
                 <h2 className="project-title">Wayfarer</h2>
