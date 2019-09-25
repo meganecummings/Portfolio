@@ -1,3 +1,5 @@
+## Megan Electa Cummings Portfolio Project
+
 This is a Portfolio of my work and a snapshot of where I am technically. The goal of this project is to gain experience through experimentation in React and to show off my skills. 
 
 My portfolio website is available at : MeganElecta.com
