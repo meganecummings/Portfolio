@@ -5,8 +5,8 @@ import './ProjectList.css';
 const ProjectList = () => {
     return(
         <div id="work">
-            <h3 className="tech-title">Concept Project List</h3>
-            <div id="project">            
+            <h3 className="tech-title">Concept Projects</h3>
+            <div id="projects">            
                 <Project />
             </div>
 
