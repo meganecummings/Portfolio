@@ -1,4 +1,5 @@
-## Megan Electa Cummings Portfolio Project
+## Megan Electa Cummings 
+### Portfolio Project
 
 This is a Portfolio of my work and a snapshot of where I am technically. The goal of this project is to gain experience through experimentation in React and to show off my skills. 
 
@@ -8,7 +9,7 @@ Electa is my middle name!
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Technologies Used
+### Technologies Used
  
 My Portfolio was built entirely in React. 
 
