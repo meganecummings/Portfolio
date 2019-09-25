@@ -10,6 +10,7 @@ import './Project.css';
 
 const Project = () => {
     return(
+
         <>
             <div className="project clothingswap card">
                 <div className="img-container">
@@ -56,7 +57,30 @@ const Project = () => {
                     </tr>
                 </tbody >
                 </Table>
-
+            </div>
+            <div className="project wayfarer">
+                <a href="https://edfranco.github.io/register" target="_blank">
+                    <img className="project-img" src={Wayfarer} alt="Wayfarer" />
+                </a>
+                <h2 className="project-title">Wayfarer</h2>
+                <div className="mt-4 pt-2">
+                    <button 
+                        href="https://github.com/pouyarezvani/Project-4-Wayfarer" target="_blank"
+                        rel="noopener noreferrer"
+                        className="btn btn-custom btn-round"><i className="fab fa-github-alt fa-i"></i>
+                        Github</button>
+                </div>
+                <p className="project-description">Wayfarer is a technical concept project based off of rough wireframes from clients. The MERN Stack Application aims to bring weary travelers to share stories and build connections around their discoveries in popular cities.</p>
+                <Table hover="true" >
+                    <tbody className="table keyword">
+                        <tr>
+                            <td><i className="fab fa-react"></i> React</td>
+                            <td><i className="fab fa-node"></i> Node.js</td>
+                            <td><i className="fas fa-server"></i> Express</td>
+                            <td><i className="fab fa-database"></i> Mongoose </td>
+                        </tr>
+                    </tbody >
+                    </Table>
         </div>
     </>
 );
