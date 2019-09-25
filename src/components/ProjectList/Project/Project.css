@@ -1,0 +1,121 @@
+.project-description {
+    color: var(--darkgray);
+    font-size: 1.5em;
+}
+
+.project-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    border: .5em solid var(--yellow);
+    width: 20em;
+    height: 18em;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 4fr 4fr;
+}
+
+.clothingswap {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.wayfarer {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.project {
+    margin: 1em;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/* Cards */
+
+.card {
+    height: 60vh;
+    margin: 2em 1em;
+    padding: 1em;
+    width: 40%;
+    background-color: whitesmoke;
+    position: relative;
+    box-shadow: inset 0 -4px 0 0 rgba(0, 0, 0, 0.2);
+}
+
+.card:hover {
+    transform: scaleY(1.1);
+    z-index: 5;
+}
+
+.card-header {
+    text-align: center;
+    color: var(--yellow);
+    margin-top: 30px;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.img-container {
+    position: relative;
+    height: 25vh;
+}
+
+.card-img {
+    position: absolute;
+    width: 100%;
+    top: -4rem;
+    left: 0;
+    bottom: 1em;
+}
+
+.card-text {
+    background: var(--rose);
+    padding: .3em;
+    margin: 0;
+    font-weight: bolder;
+    font-size: 1.5em;
+    color: #212121;
+    position: absolute;
+    top: -.3em;
+    right: -.5em;
+    border-radius: 50%;
+}
+
+
+/* Type Components */
+
+.types {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.type {
+    padding: 0.5em;
+    background-color: aqua;
+    border-radius: 10%;
+    margin: .5em;
+    color: white;
+    box-shadow: inset 0 -4px 0 0 rgba(0, 0, 0, 0.2);
+}
+
+.react {
+    background-color: rgb(2, 189, 2);
+}
+
+.node {
+    background-color: rgb(194, 5, 194);
+}
+
+.express {
+    background-color: rgb(248, 49, 49);
+}
+
+.mongoose {
+    background-color: aquamarine;
+}

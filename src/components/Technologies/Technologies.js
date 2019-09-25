@@ -8,8 +8,8 @@ const Technologies = () => {
         <div className="grid-wrapper">
             <div id="about" className="tech-side">
                 <div className="about-heading">
-                    <h3 className="tech-heading">Languages & Frameworks</h3>
-                    <p className="tech-body"> Here are the Technologies I've been working with recently:</p>
+                    <h3 className="tech-heading">Technologies</h3>
+                    <p className="tech-body"> Here are some of the Languages & Frameworks I've been working with recently:</p>
                     <TechnologiesExamples />    
                 </div>
             </div>  

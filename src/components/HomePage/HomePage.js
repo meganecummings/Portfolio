@@ -14,8 +14,8 @@ const HomePage = () => {
                 <section>
                     <About />
                     <Technologies />
-                    <ProjectList />
                 </section>
+                <ProjectList />
             </div>
             <section id="comment">
                 <Comment />

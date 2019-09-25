@@ -6,7 +6,10 @@ const ProjectList = () => {
     return(
         <div id="work">
             <h3 className="tech-title">Concept Project List</h3>
-            <Project />
+            <div id="project">            
+                <Project />
+            </div>
+
         </div>
     );
 };
