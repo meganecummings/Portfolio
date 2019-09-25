@@ -1,4 +1,7 @@
 import React from 'react';
+import {Table} from 'react-bootstrap';
+
+
 
 import Wayfarer from './wayfarer.png';
 import Profile from './CSwap-Profile.png';
@@ -29,7 +32,7 @@ const Project = () => {
                     Github</button>
             </div>
         </div>
-        
+
         <div className="project wayfarer">
             <a href="https://edfranco.github.io/register">
                 <img className="project-img" src={Wayfarer} alt="Wayfarer" />
