@@ -14,8 +14,6 @@ const HomePage = () => {
                 <section>
                     <About />
                     <Technologies />
-                </section>
-                <section>
                     <ProjectList />
                 </section>
             </div>
