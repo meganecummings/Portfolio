@@ -78,8 +78,7 @@
     position: absolute;
     left: 2%;
     height: 80%;
-    width: 80%;
-    margin: 1em;
+    margin: auto;
 }
 
 .project-text {

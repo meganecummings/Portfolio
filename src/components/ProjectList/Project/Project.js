@@ -42,12 +42,13 @@ const Project = () => {
                     <h2 className="project-header">Wayfarer</h2>
                     <div className="project-text">
                         <p>Wayfarer is a MERN Stack Application that brings weary travelers together to share stories and build connections around their travel discoveries.</p>
-                    </div>
-                    <button 
+                        <button 
                         href="https://github.com/pouyarezvani/Project-4-Wayfarer" target="_blank"
                         rel="noopener noreferrer"
                         ><i className="fab fa-github-alt fa-i"></i>
                         Github</button>
+                    </div>
+
                     <br/>
                     <div className="types">
                         <div className="type react"><i className="fab fa-react"></i> React</div>
