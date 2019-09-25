@@ -34,7 +34,7 @@ const Project = () => {
             </div>
             <div className="project wayfarer">
                 <div className="img-container">
-                    <a href="https://edfranco.github.io/register">
+                    <a href="https://edfranco.github.io/wayfarer/">
                         <img className="project-img border" src={Wayfarer} alt="Wayfarer" />
                     </a>
                 </div>
