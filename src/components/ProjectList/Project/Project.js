@@ -6,6 +6,7 @@ import './Project.css';
 
 const Project = () => {
     return(
+
         <>
             <div className="project clothingswap">
                 <div className="types">

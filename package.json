@@ -2,14 +2,13 @@
     "name": "portfolio-app",
     "version": "0.1.0",
     "private": true,
-    "homepage": "https://meganecummings.github.io/Portfolio/",
+    "homepage": "https://www.meganelecta.com/",
     "dependencies": {
         "@fortawesome/fontawesome-svg-core": "^1.2.24",
         "@fortawesome/free-solid-svg-icons": "^5.11.1",
         "@fortawesome/react-fontawesome": "^0.1.4",
         "animate.css": "^3.7.2",
         "bootstrap": "^4.3.1",
-        "gh-pages": "^2.1.1",
         "react": "^16.9.0",
         "react-anchor-link-smooth-scroll": "^1.0.12",
         "react-animated-css": "^1.2.1",
@@ -26,7 +25,7 @@
         "build": "react-scripts build",
         "test": "react-scripts test",
         "predeploy": "npm run build",
-        "deploy": "gh-pages -d build",
+        "deploy": "npm gh-pages -d build",
         "eject": "react-scripts eject"
     },
     "eslintConfig": {
@@ -43,5 +42,8 @@
             "last 1 firefox version",
             "last 1 safari version"
         ]
+    },
+    "devDependencies": {
+        "gh-pages": "^2.1.1"
     }
 }
