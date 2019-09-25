@@ -11,11 +11,15 @@ const HomePage = () => {
     return(
         <>
             <div className="grid-wrapper" id="homepage">
-                <About />
-                <Technologies />
-                <ProjectList />
+                <section>
+                    <About />
+                    <Technologies />
+                </section>
+                <section>
+                    <ProjectList />
+                </section>
             </div>
-            <section className="comment">
+            <section id="comment">
                 <Comment />
             </section>
             <Footer />

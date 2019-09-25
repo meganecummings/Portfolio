@@ -123,6 +123,7 @@ Layout
 section {
     padding: 105px 30px;
     padding: 7rem 2rem;
+    margin: 1em;
 }
 
 .wrap {
@@ -167,7 +168,8 @@ Layout
 Buttons
 ------------------------------------------- */
 
-button {
+button,
+.button {
     cursor: pointer;
     outline: 0;
     border: 2px solid var(--darkgray);
@@ -185,7 +187,8 @@ button {
     transition: all .3s ease-in-out;
 }
 
-button:hover {
+button:hover,
+.button:hover {
     background-color: var(--rose);
     ;
     color: white;

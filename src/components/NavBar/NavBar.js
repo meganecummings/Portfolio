@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 
-import { Navbar, Nav, NavDropdown, Form, FormControl, Button } from 'react-bootstrap'
-import AnchorLink from 'react-anchor-link-smooth-scroll';
+import { Navbar, Nav, NavDropdown } from 'react-bootstrap'
 import './NavBar.css';
 import resume from '../About/resume.pdf';
 

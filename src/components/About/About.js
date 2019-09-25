@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 
 import megPhoto from './meg-headshot.jpg';
 import './About.css';
-import {Table, Row, Col, Container} from 'react-bootstrap';
 import resume from './resume.pdf';
 
 class About extends Component {
@@ -11,7 +10,7 @@ class About extends Component {
     return(
         <div className="grid-wrapper">
             <div id="about" className="col-third">
-                <div class="container">
+                <div className="container">
                     <svg viewBox="0 0 500 500" preserveAspectRatio="xMinYMin meet">
                         <path d="M0,100 C150,200 350,0 500,100 L500,00 L0,0 Z" ></path>
                     </svg>
