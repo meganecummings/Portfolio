@@ -2,7 +2,7 @@
     "name": "portfolio-app",
     "version": "0.1.0",
     "private": true,
-    "homepage": "https://www.meganelecta.com/",
+    "homepage": "https://meganelecta.com/",
     "dependencies": {
         "@fortawesome/fontawesome-svg-core": "^1.2.24",
         "@fortawesome/free-solid-svg-icons": "^5.11.1",
