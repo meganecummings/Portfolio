@@ -2,7 +2,7 @@
     "name": "portfolio-app",
     "version": "0.1.0",
     "private": true,
-    "homepage": "https://meganelecta.com/",
+    "homepage": "https://www.meganelecta.com/",
     "dependencies": {
         "@fortawesome/fontawesome-svg-core": "^1.2.24",
         "@fortawesome/free-solid-svg-icons": "^5.11.1",
@@ -25,7 +25,7 @@
         "build": "react-scripts build",
         "test": "react-scripts test",
         "predeploy": "npm run build",
-        "deploy": "gh-pages -d build",
+        "deploy": "master -d build",
         "eject": "react-scripts eject"
     },
     "eslintConfig": {
