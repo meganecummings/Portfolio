@@ -19,7 +19,7 @@ class About extends Component {
             </div>
             <div className="about col-side">
                 <h3 className="about-heading">Hello! <br/> I'm Megan.</h3>
-                <p className="about-title"> I'm an aspiring Software Engineer with a passion for building thoughtful and intuitive applications. </p>
+                <p className="about-title"> I'm a former Technical Operations leader transitioning into a software engineering career. I saw that the engineers were working on the most interesting problems and that's where I want to be.  </p>
                 <div className="mt-4 pt-2">
                     <p className="about-body">Checkout some of my experience:</p>
                     <button 
