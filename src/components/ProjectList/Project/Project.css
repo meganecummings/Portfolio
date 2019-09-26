@@ -35,13 +35,14 @@
 .projects {
     margin: 1em;
     transition: all .3s ease-in-out;
+    display: flex;
 }
 
 
 /* Cards */
 
 .project {
-    height: 60vh;
+    /* height: 60vh; */
     margin: 3em 1em;
     padding: 1em;
     width: 80%;
@@ -69,16 +70,23 @@
 .img-container {
     grid-column-start: 1;
     grid-column-end: 2;
-    position: relative;
-    height: 80%;
-    justify-content: center;
+    padding: 1em;
+    margin: 1em;
+    display: flex;
 }
 
 .project-img {
-    position: absolute;
+    /* position: absolute;
     left: 2%;
     height: 80%;
+    margin: auto; */
+    justify-content: center;
+    overflow: hidden;
+    /* height: 100px; */
+    width: auto;
     margin: auto;
+    padding: 1em;
+    /* height: 20rem; */
 }
 
 .project-text {
@@ -95,6 +103,10 @@
     border-radius: 5%;
 }
 
+.rose-border {
+    border: 2rem solid var(--rose);
+}
+
 
 /* Type Components */
 
@@ -102,6 +114,7 @@
     display: flex;
     align-content: center;
     justify-content: center;
+    padding: 1em;
 }
 
 .type {

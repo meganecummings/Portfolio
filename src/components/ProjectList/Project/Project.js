@@ -11,7 +11,7 @@ const Project = () => {
             <div className="project clothingswap">
                 <div className="img-container">
                     <a href="https://meganecummings.github.io/clothingswap-app/" target="_blank" rel="noopener noreferrer">
-                        <img src={Profile} alt="clothingswap homepage" className="project-img border"/>
+                        <img src={Profile} alt="clothingswap homepage" className="project-img rose-border"/>
                     </a>
                 </div>
                 <div className="project-body">
@@ -35,7 +35,7 @@ const Project = () => {
             <div className="project wayfarer">
                 <div className="img-container">
                     <a href="https://edfranco.github.io/wayfarer/">
-                        <img className="project-img border" src={Wayfarer} alt="Wayfarer" />
+                        <img className="project-img rose-border" src={Wayfarer} alt="Wayfarer" />
                     </a>
                 </div>
                 <div className="project-body">
