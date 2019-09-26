@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.96f56e7c.chunk.css",
+    "main.js": "/static/js/main.31bf7c88.chunk.js",
+    "main.js.map": "/static/js/main.31bf7c88.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.c82ec388.js",
+    "runtime~main.js.map": "/static/js/runtime~main.c82ec388.js.map",
+    "static/css/2.266e55a5.chunk.css": "/static/css/2.266e55a5.chunk.css",
+    "static/js/2.be58ec75.chunk.js": "/static/js/2.be58ec75.chunk.js",
+    "static/js/2.be58ec75.chunk.js.map": "/static/js/2.be58ec75.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.e56329f30b02759d88af792f9e95092e.js": "/precache-manifest.e56329f30b02759d88af792f9e95092e.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.266e55a5.chunk.css.map": "/static/css/2.266e55a5.chunk.css.map",
+    "static/css/main.96f56e7c.chunk.css.map": "/static/css/main.96f56e7c.chunk.css.map",
+    "static/media/CSwap-Profile.png": "/static/media/CSwap-Profile.789a0315.png",
+    "static/media/Header.css": "/static/media/desk.af53d8cd.jpg",
+    "static/media/meg-headshot.jpg": "/static/media/meg-headshot.9584b282.jpg",
+    "static/media/resume.pdf": "/static/media/resume.2f2f0c07.pdf",
+    "static/media/techImage.jpg": "/static/media/techImage.1552140c.jpg",
+    "static/media/wayfarer.png": "/static/media/wayfarer.cfdbcf16.png"
+  }
+}
