@@ -177,10 +177,10 @@ button,
     cursor: pointer;
     outline: 0;
     border: 2px solid var(--darkgray);
-    ;
     color: var(--text);
     padding: 8px 25.5px;
     padding: 8px 1.7rem;
+    margin: 1em;
     background-color: transparent;
     font-weight: 500;
     text-transform: uppercase;

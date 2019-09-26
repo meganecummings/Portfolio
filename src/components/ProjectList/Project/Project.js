@@ -18,10 +18,14 @@ const Project = () => {
                     <div className="project-header">Clothing Swap</div>
                     <div className="project-text">
                         <p>ClothingSwap is MERN stack application for creating and managing your own clothing swap events.</p>
-                        <button 
+                        <a 
+                            href="https://meganecummings.github.io/clothingswap-app/" target="_blank" 
+                            rel="noopener noreferrer" className="button"><i className="fab fa-github-alt fa-i"></i>Github</a>
+                        <a 
                             href="https://github.com/meganecummings/clothingswap-app" target="_blank" 
-                            rel="noopener noreferrer"><i className="fab fa-github-alt fa-i"></i>
-                            Github</button>
+                            rel="noopener noreferrer" className="button"><i class="fab fa-safari"
+                            ></i>
+                            App</a>
                     </div>
                     <br/>
                     <div className="types">
@@ -34,7 +38,8 @@ const Project = () => {
             </div>
             <div className="project wayfarer">
                 <div className="img-container">
-                    <a href="https://edfranco.github.io/wayfarer/">
+                    <a href="https://edfranco.github.io/wayfarer/" target="_blank"
+                    rel="noopener noreferrer">
                         <img className="project-img rose-border" src={Wayfarer} alt="Wayfarer" />
                     </a>
                 </div>
@@ -42,11 +47,16 @@ const Project = () => {
                     <h2 className="project-header">Wayfarer</h2>
                     <div className="project-text">
                         <p>Wayfarer is a MERN Stack Application that brings weary travelers together to share stories and build connections around their travel discoveries.</p>
-                        <button 
-                        href="https://github.com/pouyarezvani/Project-4-Wayfarer" target="_blank"
-                        rel="noopener noreferrer"
-                        ><i className="fab fa-github-alt fa-i"></i>
-                        Github</button>
+                        <a 
+                            href="https://github.com/pouyarezvani/Project-4-Wayfarer" target="_blank"
+                            rel="noopener noreferrer" className="button"
+                            ><i className="fab fa-github-alt fa-i"></i>
+                            Github</a>
+                        <a 
+                            href="https://edfranco.github.io/wayfarer/" target="_blank" 
+                            rel="noopener noreferrer" className="button"><i class="fab fa-safari"
+                            ></i>
+                            App</a>
                     </div>
 
                     <br/>
