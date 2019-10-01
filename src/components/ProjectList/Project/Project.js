@@ -21,11 +21,6 @@ const Project = () => {
                         <a 
                             href="https://meganecummings.github.io/clothingswap-app/" target="_blank" 
                             rel="noopener noreferrer" className="button"><i className="fab fa-github-alt fa-i"></i>Github</a>
-                        <a 
-                            href="https://github.com/meganecummings/clothingswap-app" target="_blank" 
-                            rel="noopener noreferrer" className="button"><i class="fab fa-safari"
-                            ></i>
-                            App</a>
                     </div>
                     <br/>
                     <div className="types">
@@ -52,11 +47,6 @@ const Project = () => {
                             rel="noopener noreferrer" className="button"
                             ><i className="fab fa-github-alt fa-i"></i>
                             Github</a>
-                        <a 
-                            href="https://edfranco.github.io/wayfarer/" target="_blank" 
-                            rel="noopener noreferrer" className="button"><i class="fab fa-safari"
-                            ></i>
-                            App</a>
                     </div>
 
                     <br/>
