@@ -26,11 +26,12 @@ class About extends Component {
                         href="https://github.com/meganecummings" 
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="btn btn-custom btn-round button"><i className="fab fa-github-alt fa-i"></i>  Github</a>
+                        className="btn btn-round button"><i className="fab fa-github-alt fa-i"></i>  Github</a>
+                    <br/>
                     <a 
                         href={resume} target="_blank"
                         rel="noopener noreferrer"
-                        className="btn btn-custom btn-round button"><i className="far fa-id-badge fa-i"></i>     Resume</a>
+                        className="btn btn-round button"><i className="far fa-id-badge fa-i"></i>     Resume</a>
                 </div>
                 <br/>
                 
